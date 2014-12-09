@@ -9,6 +9,7 @@ https://app.sycamoreeducation.com/api/v1/Me
 ### Notes
 - This endpoint servers as a great place to look for user-specific information before prompting the user for their data (i.e. query this endpoint to check if they have an email before prompting the user to enter their email)
 
+
 ### Returns
 
 On Success: HTTP/1.1 200 OK
@@ -20,7 +21,7 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 ### Parameters
 
 | Field | Description |
-|-------|-------------|
+|----------------------|
 | UserID | Unique identifier of the user
 | SchoolId | Unique identifier of the school that the user belongs to
 | FirstName | The first name of the user

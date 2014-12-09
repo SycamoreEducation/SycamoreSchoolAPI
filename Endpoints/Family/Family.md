@@ -15,7 +15,7 @@ Nothing To Return: HTTP/1.1 204 No Content
 Failed Authentication:  HTTP/1.1 403 Forbidden
 
 | Field | Description |
-|-------|-------------|
+| ------|-------------|
 | ExtID | School given identifier for the family
 | Code | The Sycamore given family code
 | Name | General family name
