@@ -9,7 +9,7 @@ https://app.sycamoreeducation.com/api/v1/Class/:ClassID/Attendance
 ### Parameters
 
 | Field | Description |
-|----------------------|
+|-------|-------------|
 | quarter | The academic quarter you'd like to submit attendance for |
 | date  | The date (YYYY-MM-DD format) that you'd like to select |
 
@@ -26,7 +26,7 @@ Nothing To Return: HTTP/1.1 204 No Content
 Failed Authentication:  HTTP/1.1 403 Forbidden
 
 | Field | Description |
-|----------------------|
+|-------|-------------|
 | Day |	Date of the attendance records being requests (mm/dd/yyyy format)
 | Quarter | Quarter that the attendance records would fall into
 | StudentCount | Total number of students eligible for attendance in this class
@@ -91,7 +91,7 @@ https://app.sycamoreeducation.com/api/v1/Class/58418/Attendance
 ### Parameters
 
 | Field | Type | Description |
-|----------------------|
+|-------|------|-------------|
 | Date | String | Date (YYYY-MM-DD format) the attendance is submitted on. Default: Current date
 | Students * | Array | An array of objects that with each key being a students unique ID
 | > Tardy | Interger | Boolean (1/0) value indicating if the student was tardy. Default: 0

@@ -17,7 +17,7 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 ### Parameters
 
 | Fields | Description |
-|----------------------|
+|--------|-------------|
 | Name | The formal name of the school
 | Address1 |	First address field of the school
 | Address2 | Second address field of the shool
