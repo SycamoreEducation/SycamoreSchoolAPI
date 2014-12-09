@@ -6,6 +6,19 @@ https://app.sycamoreeducation.com/api/v1/School/1002
 
 ## GET
 
+### Parameters
+
+| Field | Description |
+|----------------------|
+| Table | foo |
+| Of | bar |
+| Parameters | baz |
+
+### Notes
+- List
+- of
+- notes
+
 ### Returns
 
 On Success: HTTP/1.1 200 OK
@@ -13,8 +26,6 @@ On Success: HTTP/1.1 200 OK
 Nothing To Return: HTTP/1.1 204 No Content
 
 Failed Authentication:  HTTP/1.1 403 Forbidden
-
-### Parameters
 
 | Field | Description |
 |----------------------|
@@ -45,12 +56,16 @@ https://app.sycamoreeducation.com/api/v1/School/1002
 | Of | Interger | bar |
 | Parameters | Boolean | baz |
 
+### Notes
+- List
+- of
+- notes
 
 ### Returns
 
-On Success: HTTP/1.1 200 OK
+On Success: HTTP/1.1 201 Created
 
-Nothing To Return: HTTP/1.1 204 No Content
+Malformed Request: HTTP/1.1 400 Bad Request
 
 Failed Authentication:  HTTP/1.1 403 Forbidden
 
