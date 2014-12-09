@@ -9,7 +9,7 @@ https://app.sycamoreeducation.com/api/v1/Student/:StudentID/Classes
 ### Parameters
 
 | Field | Description |
-|----------------------|
+|-------|-------------|
 | quarter * | The academic quarter you'd like to pull classes from
 | schoolyearid * | The academic year that you'd like to pull grade postings from
 | type * | The type of class you'd like to return
@@ -34,7 +34,7 @@ Nothing To Return: HTTP/1.1 204 No Content
 Failed Authentication:  HTTP/1.1 403 Forbidden
 
 | Field | Description |
-|----------------------|
+|-------|-------------|
 | ID | Unique identifier of the grade posting
 |Name | The name given to the class
 |Description | Description give to the class

@@ -21,7 +21,7 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 ### Parameters
 
 | Field | Description |
-|----------------------|
+|-------|-------------|
 | UserID | Unique identifier of the user
 | SchoolId | Unique identifier of the school that the user belongs to
 | FirstName | The first name of the user
