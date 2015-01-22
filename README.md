@@ -66,11 +66,11 @@ This Github repository is meant to be used for the Sycamore School Public API.
 
 ### Student Endpoints
 
-- [Classes](Endpoints/Students/Classes.md)
-- [Assignment Grades](Endpoints/Students/Assignment_Grades.md)
-- [Posted Grades](Endpoints/Students/Grades.md)
-- [Homework](Endpoints/Students/Homework.md)
-- [Missing](Endpoints/Students/Missing.md)
+- [Classes](Endpoints/Student/Classes.md)
+- [Assignment Grades](Endpoints/Student/Assignment_Grades.md)
+- [Posted Grades](Endpoints/Student/Grades.md)
+- [Homework](Endpoints/Student/Homework.md)
+- [Missing](Endpoints/Student/Missing.md)
 
 ### Class Endpoints
 
@@ -82,13 +82,3 @@ This Github repository is meant to be used for the Sycamore School Public API.
 - [Student Directory (Details)](Endpoints/Class/Directory_Student.md)
 - [Lesson Plans](Endpoints/Class/Lessons.md)
 - [Lesson Plan](Endpoints/Class/Lesson.md)
-
-
-
-
-
-
-
-
-
-
