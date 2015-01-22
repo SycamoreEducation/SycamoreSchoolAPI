@@ -11,10 +11,7 @@ https://app.sycamoreeducation.com/api/v1/Class/:ClassID/Assignments
 | Field | Description |
 |-------|-------------|
 | quarter | The academic quarter you'd like to select assignments from |
-| status | The graded status of the assignments you'd like to see.
-            1 = Current
-            2 = Graded
-            3 = Future |
+| status | The graded status of the assignments you'd like to see. (1=current, 2=graded, 3=future) |
 | subjectid | The class subject used to filter returned assigments |
 
 ### Notes
@@ -90,10 +87,7 @@ https://app.sycamoreeducation.com/api/v1/Class/58418/Assignments
 |Description |	String| 	The text/instructions of the assignment. Default: null|
 |Points |	Interger| 	How many points are possible to earn. Default: 0|
 |Unit |	Interger |	The class curriculum unit ID for the assignment. Default: 0|
-|Status |	Interger | Which status the assignment will initially have. Defaults: 3.
-                        1 = Current
-                        2 = Graded
-                        3 = Future |
+|Status |	Interger | Which status the assignment will initially have. (1=current, 2=graded, 3=future) Defaults: 3. |
 |DropBox |	Boolean (1/0) |	Indicate if the assignment will be dropbox enabled. Default: 0|
 |Calendar |	Boolean (1/0) | Indicate whether or not this assignment is viewable on the class calendar. Default: 0|
 
