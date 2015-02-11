@@ -24,7 +24,7 @@ If you want to create an application that can access a users information on thei
 Below is a run down of the information each application will be required to enter:
 
 | Field | Description |
-|--------------------|
+|---------|-----------|
 | App Name | The name that you've given your application. It must be unique among ALL applications (not just your own, all other Sycamore Developers). It must also follow the Brand Guidelines found here.
 | Description |	a short description about what your application does. This will be viewable by the user before they authorize your application to view their information. Make it count!
 | Website |	A general marketing website that users can visit to get more information about your application.
