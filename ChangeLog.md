@@ -2,8 +2,6 @@
 
 Any additions, subtractions, multiplications or divisions of the API will be recorded here as a living history of the API
 
-Format:
-
 ---
 
 ### 02/06/2015
