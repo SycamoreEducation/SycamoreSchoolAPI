@@ -97,7 +97,8 @@ https://app.sycamoreeducation.com/api/v1/Class/58418/Attendance
 | > Tardy | Interger | Boolean (1/0) value indicating if the student was tardy. Default: 0
 | > Absent | Interger |	Boolean (1/0) value indicating if the student was absent. Default: 0
 | > Present | Interger | Boolean (1/0) value indicating if the student was tardy. Default: 0
-|> ATID | Interger | Attendance type ID. Default: 0
+| > ATID | Interger | Attendance type ID. Default: 0
+| > Comment | String | Specific comments about this student's attendance record. Default: empty string
 
 ### Notes
 - Must submit at least one student or a HTTP400 will be returned
@@ -121,7 +122,8 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
         "614085" : {
             "Present": 1,
             "Absent": 0,
-            "Tardy": 1
+            "Tardy": 1,
+            "Comment": "This kid rocks!"
         }
     }
 }
