@@ -21,6 +21,8 @@ This Github repository is meant to be used for the Sycamore School Public API.
 
 [Marketing Resources](MarketingResources.md)
 
+[API Change Log](ChangeLog.md)
+
 ## Endpoints
 
 ### School Level
