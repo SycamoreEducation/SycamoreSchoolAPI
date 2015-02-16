@@ -14,3 +14,12 @@ Any additions, subtractions, multiplications or divisions of the API will be rec
  - Only insert Class Activity record if a creation or update of attendance records was successful
  
 ---
+
+### 02/04/2015
+**Endpoints edited**
+ - [School/:SchoolID/News/:NewsID](Endpoints/School/News_Article.md)
+
+**Changes made** 
+ - When viewing an article with the option `nohtml=1`, we now convert content of news article to UTF-8 to better strip the formatting
+
+---
