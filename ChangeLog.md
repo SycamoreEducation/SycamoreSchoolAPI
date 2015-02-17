@@ -7,9 +7,12 @@ Any additions, subtractions, multiplications or divisions of the API will be rec
 ### 02/17/2015
 **Endpoints edited**
  - [Class/:ClassID/Attendance](Endpoints/Class/Attendance.md#post)
+ - [Student/:StudentID/Statistics](Endpoints/Students/Statistics.md)
+ - [Student/:StudentID/Statistic](Endpoints/Students/Statistic.md)
 
 **Changes made** 
  - Edited notes on POST requests to specify that POSTed data for a student that already has attendance records in the system will update their existing records
+ - Student Statistics and Student Statistic endpoints added
  
 ---
 
