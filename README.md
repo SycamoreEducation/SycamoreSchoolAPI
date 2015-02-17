@@ -73,6 +73,8 @@ This Github repository is meant to be used for the Sycamore School Public API.
 - [Posted Grades](Endpoints/Student/Grades.md)
 - [Homework](Endpoints/Student/Homework.md)
 - [Missing](Endpoints/Student/Missing.md)
+- [Statistics](Endpoints/Student/Statistics.md)
+- [Statistic](Endpoints/Student/Statistic.md)
 
 ### Class Endpoints
 
