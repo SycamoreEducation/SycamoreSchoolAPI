@@ -102,7 +102,7 @@ https://app.sycamoreeducation.com/api/v1/Class/58418/Attendance
 
 ### Notes
 - Must submit at least one student or a HTTP400 will be returned
-- If attendance record already exists for a student, the POST will be ignored for that student
+- If attendance record already exists for a student, the POST will be act as an UPDATE for that students record
 - HomeRoom detection happens automagically and will be inserted if needed
 - Present, Absent and Tardy are not all required. All default to 0. Only the current status must be sent to correct take attendance.
 - If Tardy is set to 1 for a POSTed record, Present = 1 will be assumed by the API as well, even if not explictly supplied.
