@@ -4,6 +4,15 @@ Any additions, subtractions, multiplications or divisions of the API will be rec
 
 ---
 
+### 02/17/2015
+**Endpoints edited**
+ - [Class/:ClassID/Attendance](Endpoints/Class/Attendance.md#post)
+
+**Changes made** 
+ - Edited notes on POST requests to specify that POSTed data for a student that already has attendance records in the system will update their existing records
+ 
+---
+
 ### 02/06/2015
 **Endpoints edited**
  - [Class/:ClassID/Attendance](Endpoints/Class/Attendance.md#post)
