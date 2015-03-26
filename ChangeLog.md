@@ -18,9 +18,9 @@ Any additions, subtractions, multiplications or divisions of the API will be rec
  - [Student/:StudentID/Statistics](Endpoints/Students/Statistics.md)
  - [Student/:StudentID/Statistics/:StatisticID](Endpoints/Students/Statistic.md)
 
- **Changes made**
-- Added the check for District/Diocese and State level statistics and included them in the returned results
-- Modified returned values: added arrays for Local, District and State that will contain their respective statistics for the student
+**Changes made**
+ - Added the check for District/Diocese and State level statistics and included them in the returned results
+ - Modified returned values: added arrays for Local, District and State that will contain their respective statistics for the student
 
 ---
 
