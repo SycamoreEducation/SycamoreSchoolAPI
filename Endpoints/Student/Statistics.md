@@ -37,34 +37,34 @@ https://app.sycamoreeducation.com/api/v1/Student/1232/Statistics
 ```json
 {
   "Local": {
-    "Sacraments": [
+    "Personal": [
       {
-        "ID": "5943",
-        "Name": "First Communion Date",
-        "Description": "",
-        "Value": ""
+        "ID": "1234",
+        "Name": "Hair color",
+        "Description": "What color is this persons hair",
+        "Value": "brown"
       },
       {
-        "ID": "5944",
-        "Name": "Test Field",
-        "Description": "",
-        "Value": ""
+        "ID": "2345",
+        "Name": "Drivers License Number",
+        "Description": "The 12 digit state drive license ID number",
+        "Value": "H4543FF5565"
       }
     ]
   },
   "District": {
     "Enrollment Info": [
       {
-        "ID": "4747",
-        "Name": "Entrance Date",
-        "Description": "",
+        "ID": "3456",
+        "Name": "Acceptance Date",
+        "Description": "The date that this student was accepted into the district",
         "Value": ""
       },
       {
-        "ID": "4748",
-        "Name": "Entrance Grade",
-        "Description": "",
-        "Value": ""
+        "ID": "3457",
+        "Name": "Accepted Grade",
+        "Description": "The grade level that this student was accepted into",
+        "Value": "6"
       }
     ]
   }
