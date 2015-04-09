@@ -4,6 +4,16 @@ Any additions, subtractions, multiplications or divisions of the API will be rec
 
 ---
 
+### 04/09/2015
+**Endpoints edited**
+- [Student/:StudentID/Grades](Endpoints/Student/Grades.md)
+- [Student/:StudentID/Class/:ClassID/Grades](Endpoints/Student/Assignment_Grades.md)
+
+**Changes made**
+- If a classroom is been set up for "Semester Grading" inside of the system, these end points will adjust the value for `Quarter` to look for Posted and Assignment grades in the correct locations
+
+---
+
 ### 03/26/2015
 **Endpoints edited**
 - none
@@ -15,8 +25,8 @@ Any additions, subtractions, multiplications or divisions of the API will be rec
 
 ### 03/25/2015
 **Endpoints edited**
- - [Student/:StudentID/Statistics](Endpoints/Students/Statistics.md)
- - [Student/:StudentID/Statistics/:StatisticID](Endpoints/Students/Statistic.md)
+ - [Student/:StudentID/Statistics](Endpoints/Student/Statistics.md)
+ - [Student/:StudentID/Statistics/:StatisticID](Endpoints/Student/Statistic.md)
 
 **Changes made**
  - Added the check for District/Diocese and State level statistics and included them in the returned results
