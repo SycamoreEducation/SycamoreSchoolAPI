@@ -8,6 +8,7 @@ https://app.sycamoreeducation.com/api/v1/School/:SchoolID/Classes/:ClassID
 
 ### Notes
 - Only classes that are marked as "public" within the system will be returned
+- "CategoryID" and "Category" will only ever return for Period Long classes
 
 ### Returns
 
@@ -24,8 +25,17 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 | Name  | 	The name given to the class |
 | Section  | 	Section number of the class (potentially not unique) |
 | Description  | 	Description give to the class by the school |
+| DepartmentID | The unique ID of the department this class belongs to |
+| Department | The name of the department this class belongs to |
+| CategoryID | The unique ID of the District/Diocese category this class belongs to |
+| Category | The name of the category that this class belongs to |
 | HomeRoom  | 	A boolean value to signify if the class is considered a homeroom or not |
 | PeriodID  | 	The unique ID of the period that this class takes place in |
+| PrimaryStaffID | The unique ID of the primary staff member for this class |
+| PrimaryTeacher | The name of the primary staff member for this class |
+| Public  | 	A boolean value to signify is this class should be makde public |
+| Term | The term length of this class |
+| ParentAccess |  	A boolean value that describes whether or not the school has disabled parent access to the class |
 | Facility  | 	Object that contains data about the facility this classroom is assigned to |
 | > ID  | 	The unique ID of the facility assigned to this class |
 | > Name  | 	The name that has been given to this facility |
@@ -34,14 +44,12 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 | > ID  | The unique ID of the location assigned to this class |
 | > Name  | 	The name that has been given to this location |
 | > Number  | 	The identifying number that has been given to this location(may not be unique) |
-| Public  | 	A boolean value to signify is this class should be makde public |
-| ParentAccess |  	A boolean value that describes whether or not the school has disabled parent access to the class |
 | Teachers  | 	Object that contains information about the teachers that are listed for this class |
 | > ID  | 	The unique ID for the teacher's user |
 | > FirstName  | 	First name of the teacher |
 | > LastName  | 	Last name of the teacher |
 | > GoesBy  | 	Listed 'nick name' or 'alias' for the teacher |
-| > Status  | 	The teacher's class-specific status (set inside of the Sycamore School Classroom) |
+| > ClassStatus  | 	The teacher's class-specific status (set inside of the Sycamore School Classroom) |
 | Gradebook  | 	Object that contains information about the grade book for this class |
 | > Subjects  | 	Array that contains information about the subjects in the grade book for this class |
 | > > ID  | 	Unique ID for this specific subject |
