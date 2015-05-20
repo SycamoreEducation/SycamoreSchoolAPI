@@ -41,6 +41,8 @@ This Github repository is meant to be used for the Sycamore School Public API.
 - [Class](Endpoints/School/Class.md)
 - [Families](Endpoints/School/Families.md)
 - [Safety Alert](Endpoints/School/SafetyAlert.md)
+- [School Years](Endpoints/School/Years.md)
+- [School Year](Endpoints/School/Year.md)
 
 ### User Level
 
