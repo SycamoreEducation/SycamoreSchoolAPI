@@ -34,7 +34,7 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 | PrimaryStaffID | The unique ID of the primary staff member for this class |
 | PrimaryTeacher | The name of the primary staff member for this class |
 | Public  | 	A boolean value to signify is this class should be makde public |
-| Term | The term length of this class |
+| TermLength | The term length of this class |
 | ParentAccess |  	A boolean value that describes whether or not the school has disabled parent access to the class |
 | Facility  | 	Object that contains data about the facility this classroom is assigned to |
 | > ID  | 	The unique ID of the facility assigned to this class |
