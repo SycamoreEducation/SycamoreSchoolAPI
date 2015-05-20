@@ -4,6 +4,18 @@ Any additions, subtractions, multiplications or divisions of the API will be rec
 
 ---
 
+### 05/18/2015
+**Endpoints edited**
+- [School/:SchoolID/Years](Endpoints/School/Years.md) *(new)*
+- [School/:SchoolID/Years/:YearID](Endpoints/School/Year.md) *(new)*
+- [School/:SchoolID/Classes/:ClassID](Endpoints/Student/Grades.md)
+
+**Changes made**
+- Two new endpoints added to give more information about School Years
+- Updated documentation to reflect new data being returned. New data includes: "PrimaryTeacherID", "PrimaryTeacher", "Category", "CategoryID", "DepartmentID", "Department", and "TermLength". 
+
+---
+
 ### 04/09/2015
 **Endpoints edited**
 - [Student/:StudentID/Grades](Endpoints/Student/Grades.md)
