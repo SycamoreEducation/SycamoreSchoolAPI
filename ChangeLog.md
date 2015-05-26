@@ -6,11 +6,13 @@ API
 ---
 
 ### 05/26/2015 
-**Endpoints edited***
+**Endpoints edited**
  - [School/:SchoolID/Students](Endpoints/School/Students.md) *(new)*
+ - [Student/:StudentID](Endpoints/Student/Student.md) *(new)*
 
 **Changes made**
  - Added new endpoint that returns a list of the students that are currently enrolled in a school
+ - Added new endpoint that returns details about a specific student
 
 ---
 
