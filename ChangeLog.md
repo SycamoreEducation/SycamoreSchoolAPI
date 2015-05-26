@@ -1,6 +1,16 @@
 # Change Log
 
-Any additions, subtractions, multiplications or divisions of the API will be recorded here as a living history of the API
+Any additions, subtractions, multiplications or divisions of the API will be recorded here as a living history of the 
+API
+
+---
+
+### 05/26/2015 
+**Endpoints edited***
+ - [School/:SchoolID/Students](Endpoints/School/Students.md) *(new)*
+
+**Changes made**
+ - Added new endpoint that returns a list of the students that are currently enrolled in a school
 
 ---
 
