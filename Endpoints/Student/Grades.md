@@ -1,4 +1,4 @@
-# Student osted Grades
+# Student Posted Grades
 
 Retrieves a list of posted grades for the student
 
