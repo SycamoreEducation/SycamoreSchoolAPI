@@ -81,8 +81,8 @@ This Github repository is meant to be used for the Sycamore School Public API.
 - [Missing](Endpoints/Student/Missing.md)
 - [Statistics](Endpoints/Student/Statistics.md)
 - [Statistic](Endpoints/Student/Statistic.md)
-- [Attendance](Endpoints/Students/Attendance.md)
-- [Class Attendance](Endpoints/Students/Class_Attendance.md)
+- [Attendance](Endpoints/Student/Attendance.md)
+- [Class Attendance](Endpoints/Student/Class_Attendance.md)
 
 ### Class Endpoints
 
