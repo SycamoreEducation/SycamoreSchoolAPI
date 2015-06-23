@@ -9,10 +9,14 @@ API
 **Endpoints edited**
  - [School/:SchoolID/Documents](Endpoints/School/Documents.md) *(new)*
  - [School/:SchoolID/Documents/:DocumentID](Endpoints/School/Document.md) *(new)*
+ - [Student/:StudentID/Attendance](Endpoints/Students/Attendance.md) *(new)*
+ - [Student/:StudentID/Classes/:ClassID/Attendance](Endpoints/Students/Class_Attendance.md) *(new)*
 
 **Changes made**
  - Added new endpoint that returns a list of the documents uploaded to the school
  - Added new endpoint that returns details about a specific document
+ - Added new endpoint that returns overview of a students attendance records
+ - Added new endpoint that returns details about a specific student's attendance records in a particular class
 
 ---
 
