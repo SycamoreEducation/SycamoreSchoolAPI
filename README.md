@@ -35,6 +35,8 @@ This Github repository is meant to be used for the Sycamore School Public API.
 - [Cafeteria](Endpoints/School/Cafeteria.md)
 - [Message of the Day (List)](Endpoints/School/MOTD_List.md)
 - [Message of the Day (Details)](Endpoints/School/MOTD_Details.md)
+- [Documents](Endpoints/School/Documents.md)
+- [Document](Endpoints/School/Document.md)
 - [Family Directory (List)](Endpoints/School/Directory_List.md)
 - [Family Directory (Details)](Endpoints/School/Directory_Details.md)
 - [Classes](Endpoints/School/Classes.md)
@@ -79,6 +81,8 @@ This Github repository is meant to be used for the Sycamore School Public API.
 - [Missing](Endpoints/Student/Missing.md)
 - [Statistics](Endpoints/Student/Statistics.md)
 - [Statistic](Endpoints/Student/Statistic.md)
+- [Attendance](Endpoints/Students/Attendance.md)
+- [Class Attendance](Endpoints/Students/Class_Attendance.md)
 
 ### Class Endpoints
 
