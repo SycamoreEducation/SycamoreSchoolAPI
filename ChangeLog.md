@@ -5,6 +5,17 @@ API
 
 ---
 
+### 06/23/2015 
+**Endpoints edited**
+ - [School/:SchoolID/Documents](Endpoints/School/Documents.md) *(new)*
+ - [School/:SchoolID/Documents/:DocumentID](Endpoints/School/Document.md) *(new)*
+
+**Changes made**
+ - Added new endpoint that returns a list of the documents uploaded to the school
+ - Added new endpoint that returns details about a specific document
+
+---
+
 ### 05/26/2015 
 **Endpoints edited**
  - [School/:SchoolID/Students](Endpoints/School/Students.md) *(new)*
