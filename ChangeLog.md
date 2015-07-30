@@ -5,6 +5,15 @@ API
 
 ---
 
+### 07/28/2015 
+**Endpoints edited**
+ - [School/:SchoolID/Employees](Endpoints/School/Employees.md) *(new)*
+
+**Changes made**
+ - Added new endpoint that returns a list of all the employees for a school
+
+---
+
 ### 06/23/2015 
 **Endpoints edited**
  - [School/:SchoolID/Documents](Endpoints/School/Documents.md) *(new)*
