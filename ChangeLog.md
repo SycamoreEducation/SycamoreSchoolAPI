@@ -5,6 +5,23 @@ API
 
 ---
 
+### 08/03/2015 
+**Endpoints edited**
+ - [School/:SchoolID/Discipline](Endpoints/School/discipline.md) *(new)*
+ - [Student/:StudentID/Discipline](Endpoints/Students/Discipline_Logs.md) *(new)*
+ - [Student/:StudentID/Discipline/:DisciplineID](Endpoints/Students/Discipline_Log.md) *(new)*
+ - [Student/:StudentID/Detentions](Endpoints/Students/Detentions.md) *(new)*
+ - [Student/:StudentID/Detentions/:DetentionID](Endpoints/Students/Detention.md) *(new)*
+
+**Changes made**
+ - Added new endpoint that returns a list of the discipline logs created at the school level on a per day basis
+ - Added new endpoint that returns details about a students discipline log
+ - Added new endpoint that returns overview of a student's discipline logs
+ - Added new endpoint that returns details about a student's detention
+ - Added new endpoint that returns overview of a student's detentions
+
+---
+
 ### 07/28/2015 
 **Endpoints edited**
  - [School/:SchoolID/Employees](Endpoints/School/Employees.md) *(new)*
