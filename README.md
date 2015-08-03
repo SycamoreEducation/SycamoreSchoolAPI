@@ -47,6 +47,7 @@ This Github repository is meant to be used for the Sycamore School Public API.
 - [Safety Alert](Endpoints/School/SafetyAlert.md)
 - [School Years](Endpoints/School/Years.md)
 - [School Year](Endpoints/School/Year.md)
+- [Discipline](Endpoints/School/Discipline.md)
 
 ### User Level
 
@@ -84,6 +85,10 @@ This Github repository is meant to be used for the Sycamore School Public API.
 - [Statistic](Endpoints/Student/Statistic.md)
 - [Attendance](Endpoints/Student/Attendance.md)
 - [Class Attendance](Endpoints/Student/Class_Attendance.md)
+- [Discipline Logs](Endpoints/Student/Discipline_Logs.md)
+- [Discipline Log](Endpoints/Student/Discipline_Log.md)
+- [Detentions](Endpoints/Student/Detentions.md)
+- [Detention](Endpoints/Student/Detention.md)
 
 ### Class Endpoints
 
