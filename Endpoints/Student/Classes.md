@@ -10,19 +10,12 @@ https://app.sycamoreeducation.com/api/v1/Student/:StudentID/Classes
 
 | Field | Description |
 |-------|-------------|
-| quarter * | The academic quarter you'd like to pull classes from
-| schoolyearid * | The academic year that you'd like to pull grade postings from
-| type * | The type of class you'd like to return
+| quarter * | The academic quarter you'd like to pull classes from |
+| type * | The type of class you'd like to return (1=day long, 2=period long, 3=general, 4=preschool) |
 
 ### Notes
-- Types are:
-  1. Day Long
-  2. Period Long
-  3. General
-  4. Preschool
-- If no school year is specified the current school year ID will be used
 - If no quarter is specified the current quarter will be used
-- Schools may choose to disable access to student schedules for either families or students which would cause a 401 Unauthorized error to be returned
+- Schools may choose to disable access to student schedules for either families or students which would cause a `401 Unauthorized` error to be returned
 - Classes may be excluded if they are marked 'Not Parent/Student Accessible' within the system
 
 ### Returns
