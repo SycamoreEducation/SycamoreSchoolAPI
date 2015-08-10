@@ -35,7 +35,7 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 | HomeRoom  | 	A boolean value to signify if the class is considered a homeroom or not |
 | PeriodID  | 	The unique ID of the period that this class takes place in |
 | FacilityID  | 	The unique ID of the facility assigned to this class |
-| Public  | 	A boolean value to signify is this class should be makde public |
+| Public  | 	A boolean value to identify if this class should be listed in the school's "class directory" |
 | ParentAccess  | 	A boolean value that describes whether or not the school has disabled parent access to the class |
 
 ### Example Request
