@@ -10,7 +10,7 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Classes
 
 | Field | Description |
 |-------|-------------|
-| quarter | The academic quarter you'd like to pull classes from |
+| quarter | The academic quarter you'd like to pull classes from (0 = all available) |
 | type | The type of class you'd like to return (1 = day long, 2 = period long, 3 = general, 4 = preschool) |
 
 ### Notes
