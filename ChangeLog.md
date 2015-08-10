@@ -5,9 +5,18 @@ API
 
 ---
 
+### 08/10/2015 
+**Endpoints edited**
+ - [School/:SchoolID/Classes](Endpoints/School/Classes.md)
+
+**Changes made**
+ - Added the ability to pass in `0` as the value to the `quarter` parameter in order to return back all available classes instead of limiting results to just the current quarter.
+
+---
+
 ### 08/03/2015 
 **Endpoints edited**
- - [School/:SchoolID/Discipline](Endpoints/School/discipline.md) *(new)*
+ - [School/:SchoolID/Discipline](Endpoints/School/Discipline.md) *(new)*
  - [Student/:StudentID/Discipline](Endpoints/Students/Discipline_Logs.md) *(new)*
  - [Student/:StudentID/Discipline/:DisciplineID](Endpoints/Students/Discipline_Log.md) *(new)*
  - [Student/:StudentID/Detentions](Endpoints/Students/Detentions.md) *(new)*
