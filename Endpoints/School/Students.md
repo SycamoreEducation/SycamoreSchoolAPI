@@ -28,7 +28,8 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 | Field      | Description |
 |------------|-------------|
 | ID      | Unqiue identifier for this student |
-| FamilyID   | The unique identified for this student's family |
+| FamilyID   | The unique identified for this student's primary family |
+| Family2ID   | The unique identified for this student's secondary family |
 | UserID | The unique identifier for this students user account (0 if not enabled)|
 | StudentCode | The student code given to the student by Sycamore School |
 | FirstName | The first name of the student |
@@ -47,6 +48,7 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Students?grade=3
   {
     "ID": "962163",
     "FamilyID": "302023",
+    "Family2ID": "2344444",
     "UserID": "0",
     "StudentCode": "AND1498-5",
     "FirstName": "Tiffany",
@@ -58,6 +60,7 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Students?grade=3
   {
     "ID": "1012593",
     "FamilyID": "111327",
+    "Family2ID": "0",
     "UserID": "0",
     "StudentCode": "BAN1360-4",
     "FirstName": "Jacob",
