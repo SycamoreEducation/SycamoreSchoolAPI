@@ -31,6 +31,7 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 | LastName | The last name of the employee         |
 | Directory | Boolean value indicating if this employee should be included in the employee directory |
 | UserStatus | A user-defined string indicating their current status in the system |
+| LocationID | Unique ID of physical employment location for employee |
 | HomePhone | The home phone number for the employee |
 | CellPhone | The cell phone number for the employee |
 | WorkPhone1 | The primary work phone number for the employee |
@@ -50,6 +51,9 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 | State | State of residence for the employee |
 | ZIP | ZIP code of residence for the employee |
 | Country | Country of residence for the employee |
+| Position | Name of position indicated by PositionID |
+| Manager | Name of manager indicated by ManagerID |
+| Location | Name of location indicated by LocationID |
 
 ### Example Request
 
@@ -64,6 +68,7 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Employees?filter=Jo
     "LastName": "Jones",
     "Directory": "1",
     "UserStatus": "OnLine",
+    "LocationID": "7",
     "HomePhone": "",
     "CellPhone": "",
     "WorkPhone1": "",
@@ -74,7 +79,7 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Employees?filter=Jo
     "Email2": "",
     "Active": "1",
     "Current": "1",
-    "PositionID": "0",
+    "PositionID": "27",
     "ManagerID": "16992",
     "Level": "2",
     "Address1": "",
@@ -82,7 +87,10 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Employees?filter=Jo
     "City": "",
     "State": "",
     "Zip": "",
-    "Country": ""
+    "Country": "",
+    "Position": "Supervisor",
+		"Manager": "John Smith",
+		"Location": "Main Building"
   },
   {
     "ID": "368739",
@@ -108,7 +116,10 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Employees?filter=Jo
     "City": "Fremont",
     "State": "NE",
     "Zip": "45625",
-    "Country": ""
+    "Country": "",
+    "Position": "",
+		"Manager": "",
+		"Location": ""
   }
 ]
 ```
