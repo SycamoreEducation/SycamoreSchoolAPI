@@ -89,8 +89,8 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Employees?filter=Jo
     "Zip": "",
     "Country": "",
     "Position": "Supervisor",
-		"Manager": "John Smith",
-		"Location": "Main Building"
+    "Manager": "John Smith",
+    "Location": "Main Building"
   },
   {
     "ID": "368739",
@@ -118,8 +118,8 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Employees?filter=Jo
     "Zip": "45625",
     "Country": "",
     "Position": "",
-		"Manager": "",
-		"Location": ""
+    "Manager": "",
+    "Location": ""
   }
 ]
 ```
