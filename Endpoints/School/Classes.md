@@ -41,7 +41,7 @@ Failed Authentication:  HTTP/1.1 403 Forbidden
 
 ### Example Request
 
-https://app.sycamoreeducation.com/api/v1.0/School/1002/Classes?type=2
+https://app.sycamoreeducation.com/api/v1.0/School/1002/Classes?type=2&roster=1
 
 ### Example Response
 ```json
