@@ -11,6 +11,7 @@ https://app.sycamoreeducation.com/api/v1/School/1002/Classes
 | Field | Description |
 |-------|-------------|
 | quarter | The academic quarter you'd like to pull classes from (0 = all available) |
+| roster | Include a list of IDs of students in each class (1 = include) |
 | type | The type of class you'd like to return (1 = day long, 2 = period long, 3 = general, 4 = preschool) |
 
 ### Notes
@@ -54,9 +55,13 @@ https://app.sycamoreeducation.com/api/v1.0/School/1002/Classes?type=2
             "Description": "Introduction to modern English",
             "HomeRoom": "0",
             "PeriodID": "7188",
+            "PrimaryStaffID": "59096",
             "FacilityID": "0",
             "Public": "0",
-            "ParentAccess": "1"
+            "ParentAccess": "1",
+            "Roster": [],
+            "PrimaryTeacher": "John Doe",
+            "TermLength": "Second"
         },
         {
             "ID": "152180",
@@ -66,9 +71,13 @@ https://app.sycamoreeducation.com/api/v1.0/School/1002/Classes?type=2
             "Description": "#010 - 三甲 中文注音 週日, 3A Chinese Traditional Sunday",
             "HomeRoom": "0",
             "PeriodID": "7",
+            "PrimaryStaffID": "22984",
             "FacilityID": "9550",
             "Public": "0",
-            "ParentAccess": "0"
+            "ParentAccess": "0",
+            "Roster": ["243259","830680","677963","243694","280907","161662","113168","88534","481","895497"],
+            "PrimaryTeacher": "John Doe",
+            "TermLength": "Second"
         }
 
     ]
