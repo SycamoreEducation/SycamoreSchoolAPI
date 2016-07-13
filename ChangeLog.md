@@ -5,6 +5,15 @@ API
 
 ---
 
+### 07/13/2016
+**Changes made**
+- This release marks the first step in a general refactoring of the API. These internal changes should not affect existing functionality.
+- Added self-documenting ability to several endpoints. OPTIONS requests now return information about available properties and parameters.
+- Updated [API Sandbox](https://app.sycamoreschool.com/oauth/sandbox/index.php) to take advantage of new OPTIONS responses.
+- Added School/:SchoolID/Config endpoint.
+
+---
+
 ### 08/10/2015 
 **Endpoints edited**
  - [School/:SchoolID/Classes](Endpoints/School/Classes.md)
