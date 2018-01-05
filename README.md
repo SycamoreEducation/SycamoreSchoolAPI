@@ -2,7 +2,7 @@ Sycamore School API Documentation
 =============
 
 This Github repository is the official source of truth for the Sycamore School Public API. 
-Please feel free to open any issues if you find typos or inconsistencies.
+
 
 # Table of Contents
 
