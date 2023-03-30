@@ -29,31 +29,6 @@ You may use our self-service program if you are developing an Application design
 - doesn't require business-level service agreements for uptime or reliability
 - requires no help in marketing to our users
 
-#### Partner Program
-You can apply to our Partner Program and should not use our self-service program if you plan on heavily monetizing your application and would like additional help marketing directly to our current customers.
-
-Here are some of the benefits of our Partner Program
-
-- Analytics: After becoming a member of our Partner Program, you will be given advanced metrics about our customer base. You will also be able to make specific quiries of our customer base to better help you target your marketing.
-- Marketing: As a Partner Developer, you will be given prominant location on the different marketing venues that we possess, which include, but aren't limited to: public web site "App Store", login banner, monthy Leaf Notes, direct mailing and email marketing.
-- Assistance: A member of the Sycamore API team will be available to help you with any integration issues you may have and possibly add additional paramaters to the API where it makes business/technological sense.
-
-## Joining our Self-Service Program
-
-### Developer Accounts and Access Credentials
-* Developer Account
-
-  To use our self-service APIs, you must first sign up for a Developer Account. This account will be a seperate user account from your regualr school-related Sycamore account if you are a member of a Sycamore school. Both the Developer Account and your Sycamore user account must contain accurate and up-to-date information at all times, primarily your first and last name as well as your e-mail address. You agree that we can use, store, and share information submitted by you through your Developer Account.
-
-* Access Credentials
-
-  Once you have a Developer Account you may obtain Access Credentials for your Application. “Access Credentials” means the necessary security keys, secrets, tokens, passwords, and other credentials to access the APIs. The Access Credentials enable us to associate your API activity with your Application and the members using it. All activities that occur using your Access Credentials are your responsibility. Keep them secret. Do not sell, transfer, or sublicense them. Do not try to circumvent them. And do not require your users to obtain their own Access Credentials to use your Application.
-
-
-* API License
-
-  As long as you follow these Terms, we grant you a limited, non-exclusive, non-assignable, non-transferable license under Sycamore’s intellectual property rights to use the APIs to develop, test, and support your Application, and to let your customers use your integration of the APIs within your Application.
-
 ## Act Professionally
 
 ### Display and Use Content Properly
