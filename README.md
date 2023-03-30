@@ -26,7 +26,7 @@ This Github repository is the official source of truth for the Sycamore School P
 
 ## Endpoints
 
-Documentation for individual endpoints is no longer maintained here. Instead, visit the [Sycamore API sandbox](https://app.sycamoreschool.com/oauth/sandbox/index.php) to view live documentation and make test requests. Some endpoints have not yet been migrated to this new system. Links below contain the most recent documentation for these endpoints.
+**Documentation for individual endpoints is no longer maintained here.** Instead, visit the [Sycamore API sandbox](https://app.sycamoreschool.com/oauth/sandbox/index.php) to view live documentation and make test requests. Some endpoints have not yet been migrated to this new system. Links below contain the most recent documentation for these endpoints.
 
 ### School Level
 
