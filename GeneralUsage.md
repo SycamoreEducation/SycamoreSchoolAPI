@@ -8,7 +8,7 @@ Let's eat this elephant one bite at a time.
 
 1. Protocol: https://
   - All requests should be pointed to our domain over SSL.
-2. Domain: app.school.com
+2. Domain: app.sycamoreschool.com
   - The same great website you know and love
 3. Directory: /api
   - Sycamore offers multiple sub-directory sites like /admissions and /kiosk. /api will point your browser to the API.
